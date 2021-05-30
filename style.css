@@ -1,0 +1,43 @@
+body {
+  background: rgb(216, 225, 231);
+  margin: 50px 0 0 0;
+  /* background: rgb(216, 225, 231); */
+}
+.content {
+  background: rgb(216, 225, 231);
+  padding: 0;
+}
+.menubar {
+  background-color: rgba(0,0,0,0.8);
+  backdrop-filter: saturate(180%) blur(20px);
+  padding: 6px;
+  z-index: 9999;
+  overflow: hidden;
+  margin: 0 -10px;
+  position: fixed;
+  width: 100%;
+  top: 0;  
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-links {
+  padding: 0 10px;
+}
+
+.nav-links a {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+
+  color:#dedee0;
+  text-decoration: none;
+  transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.nav-links a:hover {
+  color: white;
+}
